@@ -3,6 +3,22 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black">
-
-
+        <SurfaceView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/camPreview"/>
+    <Button
+        android:id="@+id/buton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QRCODE Açmak İçin Tıklayın"></Button>
+    <TextView
+        android:id="@+id/okunan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:text="OKUNAN:"/>
 </LinearLayout>
